@@ -1,0 +1,13 @@
+#container{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid{
+    background-color: teal;
+    border: 2px solid chocolate;
+    flex:1 0 calc(6.25% - 4px);
+}
